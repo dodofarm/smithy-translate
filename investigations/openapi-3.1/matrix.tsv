@@ -1,0 +1,158 @@
+case	version	outcome	parser_messages	status	errors	validated_status	identical_to_control	shapes
+issue-306	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Body:structure, openapi#GetItem:operation, openapi#GetItem200:structure, openapi#GetItemInput:structure, openapi#OpenapiService:service
+issue-306	3.1.0	unsupported schema/feature	0	success	5	failure		error#Active:structure, error#Count:structure, error#Id:structure, error#Name:structure, openapi#Body:structure, openapi#GetItem:operation, openapi#GetItem200:structure, openapi#GetItemInput:structure, openapi#OpenapiService:service
+scalar-string	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:string
+scalar-string	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+scalar-integer	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:integer
+scalar-integer	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+scalar-number	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:double
+scalar-number	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+scalar-boolean	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:boolean
+scalar-boolean	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-date	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:string
+format-date	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-date-time	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:timestamp
+format-date-time	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-uuid	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:string
+format-uuid	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-byte	3.0.3	exception	0	exception	0	exception		
+format-byte	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-binary	3.0.3	exception	0	exception	0	exception		
+format-binary	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-password	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:string
+format-password	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-email	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:string
+format-email	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-local-date	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:string
+format-local-date	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-int16	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:short
+format-int16	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-int32	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:integer
+format-int32	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-int64	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:long
+format-int64	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-float	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:float
+format-float	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+format-double	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:double
+format-double	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+string-enum	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:enum
+string-enum	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+integer-enum	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:integer
+integer-enum	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+string-constraints	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:string
+string-constraints	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+integer-range	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:integer
+integer-range	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+object-empty	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:document
+object-empty	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+empty-schema	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+object-free	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:document
+object-free	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:document
+object-properties	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-properties	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-no-type	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-no-type	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-required	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-required	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-closed	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-closed	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:document
+object-closed-empty	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		
+object-closed-empty	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:document
+object-description	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-description	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-extension	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+object-extension	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+list	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:list
+list	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+list-free-items	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:list
+list-free-items	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+set	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:list
+set	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+typed-map	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:map
+typed-map	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:document
+typed-map-free-values	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:map, openapi#ValueItem:structure
+typed-map-free-values	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:document
+object-and-typed-extras	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:map
+object-and-typed-extras	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:document
+allOf	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+allOf	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+allOf-with-properties	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+allOf-with-properties	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+oneOf	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:union, openapi#ValueOneOfAlt0:structure, openapi#ValueOneOfAlt1:structure
+oneOf	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+oneOf-with-properties	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+oneOf-with-properties	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+anyOf	3.0.3	unsupported schema/feature	0	success	1	failure		error#Value:structure
+anyOf	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+anyOf-with-properties	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+anyOf-with-properties	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+local-schema-ref	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Base:structure, openapi#Value:structure
+local-schema-ref	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Base:structure, openapi#Value:structure
+type-singleton-array	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+nullable-string	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+nullable-object	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+multi-type	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+multi-type-with-properties	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+null-type	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+boolean-true	3.1.0	input rejected	1	success	1	failure		
+boolean-false	3.1.0	input rejected	1	success	1	failure		
+boolean-property	3.1.0	unsupported schema/feature	0	success	1	failure		error#Payload:structure, openapi#Value:structure
+boolean-property-true	3.1.0	unsupported schema/feature	0	success	1	failure		error#Payload:structure, openapi#Value:structure
+const-string	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+const-only	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+const-object	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+numeric-exclusive-bounds	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+schema-example	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+schema-example	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Value:structure
+schema-examples	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+binary-content-encoding	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+tuple-prefix-items	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+array-items-omitted	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+array-items-true	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+array-contains	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+array-unevaluated-items	3.1.0	unsupported schema/feature	0	success	1	failure		error#Value:structure
+if-then-else	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+dependent-required	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+dependent-schemas	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+unevaluated-properties	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+pattern-properties	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+property-names	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+schema-dialect	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+schema-dialect-draft7	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+arbitrary-keyword	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	False	openapi#Value:structure
+not	3.0.3	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+not	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+object-size	3.0.3	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+object-size	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+object-default	3.0.3	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+object-default	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+legacy-nullable	3.0.3	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+schema-ref-description	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Base:structure, openapi#Value:structure
+schema-ref-constraint	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Base:structure, openapi#Value:structure
+defs-pointer	3.1.0	exception	0	exception	0	exception		
+anchor-ref	3.1.0	exception	0	exception	0	exception		
+id-relative-ref	3.1.0	exception	0	exception	0	exception		
+dynamic-ref	3.1.0	unsupported schema/feature	0	success	1	failure		error#Payload:structure, openapi#Base:structure, openapi#Value:structure
+defs-unused	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	False	openapi#Value:structure
+defs-member-ref	3.1.0	model validation failure	0	success	1	failure		openapi#Value:structure
+anchor-matches-name	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#Base:structure, openapi#Value:structure
+anchor-component-ref	3.1.0	model validation failure	0	success	1	failure		openapi#Base:structure, openapi#Value:structure
+http-operation	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#GetValue:operation, openapi#GetValue200:structure, openapi#OpenapiService:service
+http-operation	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#GetValue:operation, openapi#GetValue200:structure, openapi#OpenapiService:service
+components-without-paths	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#Value:structure
+webhooks-with-paths	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#GetValue:operation, openapi#GetValue200:structure, openapi#OpenapiService:service
+webhooks-only	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		
+components-path-items	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		
+operation-without-responses	3.1.0	input rejected	1	success	1	failure		
+get-request-body	3.1.0	model validation failure	0	success	1	failure		openapi#GetValue:operation, openapi#GetValue200:structure, openapi#GetValueInput:structure, openapi#OpenapiService:service
+head-request-body	3.1.0	model validation failure	0	success	1	failure		openapi#GetValue:operation, openapi#GetValue200:structure, openapi#GetValueInput:structure, openapi#OpenapiService:service
+delete-request-body	3.1.0	model validation failure	0	success	1	failure		openapi#GetValue:operation, openapi#GetValue200:structure, openapi#GetValueInput:structure, openapi#OpenapiService:service
+raw-binary-response	3.1.0	unsupported schema/feature	0	success	1	failure		error#ApplicationOctetStream:structure, openapi#Body:union, openapi#GetValue:operation, openapi#GetValue200:structure, openapi#OpenapiService:service
+raw-binary-request	3.1.0	unsupported schema/feature	0	success	1	failure		error#Body:structure, openapi#GetValue:operation, openapi#GetValue200:structure, openapi#GetValueInput:structure, openapi#OpenapiService:service
+mutual-tls	3.1.0	unsupported schema/feature	0	success	1	failure		openapi#GetValue:operation, openapi#GetValue200:structure, openapi#OpenapiService:service
+info-summary	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#GetValue:operation, openapi#GetValue200:structure, openapi#OpenapiService:service
+license-identifier	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#GetValue:operation, openapi#GetValue200:structure, openapi#OpenapiService:service
+root-schema-dialect	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#GetValue:operation, openapi#GetValue200:structure, openapi#OpenapiService:service
+response-ref	3.0.3	no diagnostics (inspect semantics)	0	success	0	success		openapi#GetValue:operation, openapi#OpenapiService:service, openapi#Result:structure
+response-ref	3.1.0	no diagnostics (inspect semantics)	0	success	0	success		openapi#GetValue:operation, openapi#OpenapiService:service, openapi#Result:structure
+response-ref-metadata	3.1.0	no diagnostics (inspect semantics)	0	success	0	success	True	openapi#GetValue:operation, openapi#OpenapiService:service, openapi#Result:structure

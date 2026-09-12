@@ -1,0 +1,31 @@
+openapi: 3.0.3
+info:
+  title: Catalog example
+  version: '1.0'
+paths:
+  /items:
+    get:
+      operationId: getItem
+      parameters:
+        - name: id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: An item
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Item'
+components:
+  schemas:
+    Item:
+      type: object
+      required: [name]
+      properties:
+        name:
+          type: string
+        count:
+          type: integer
